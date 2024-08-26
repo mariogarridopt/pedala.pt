@@ -1,0 +1,9 @@
+services:
+  pedala_webserver:
+    image: httpd:alpine
+    container_name: pedala_webserver
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - "./src/:/var/www/html/"

@@ -1,2 +1,2 @@
-# pedala.pt
-official website for pedala.pt
+# Pedala.pt website
+
